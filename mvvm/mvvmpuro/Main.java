@@ -1,3 +1,5 @@
+package mvvm.mvvmpuro;
+
 import mvvm.mvvmpuro.viewmodel.TarefaViewModel;
 import mvvm.mvvmpuro.view.TarefaView;
 

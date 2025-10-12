@@ -71,15 +71,16 @@ public void iniciar(){
                 }
                 break;
                 
-            case 0:
+            case 5:
                 rodando = false;
+                System.out.println("Saindo do programa.");
                 break;
             default:
                 System.out.println("Opção inválida.");
                 break;
         }
     } 
-    System.out.println("Saindo do programa.");
+    
 }
 
 private void mostrarTarefas(List<Tarefa> tarefas){
