@@ -9,16 +9,19 @@ public class Observable {
     private final List<Observer> observers = new ArrayList<>();
 
     public void addObserver(Observer observer){
-        observers.add(observer);
+        if (observer != null) {
+              observers.add(observer);
+        }
+      
     }
 
     public void removeObserver(Observer observer){
         observers.remove(observer);
     }
 
-    public void notifyObservers(String propertyName, Object newValue){
+    public void notifyObservers(String propertyName,Object oldValue, Object newValue){
         for(Observer observer: observers){
-            observer.onPropertyChanged(propertyName, newValue)
+            observer.onPropertyChanged(propertyName, oldValue, newValue)
             ;
         }
     }

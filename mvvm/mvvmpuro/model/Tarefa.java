@@ -19,12 +19,12 @@ public class Tarefa {
 
     public void concluir(){
         this.concluida = true;
-
+ 
     }
     
     @Override
     public String toString(){
-        return descricao;
+        return (concluida ? "[✔️]" : "[ ]");
     }
 
     }
