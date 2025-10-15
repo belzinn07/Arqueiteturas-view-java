@@ -1,4 +1,4 @@
-package mvvm.mvvmpuro.viewmodel;
+package mvvm.mvvmpuroo.viewmodel;
 
 
 @FunctionalInterface

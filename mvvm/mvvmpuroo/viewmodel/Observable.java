@@ -1,8 +1,9 @@
-package mvvm.mvvmpuro.viewmodel;
+package mvvm.mvvmpuroo.viewmodel;
 
-import mvvm.mvvmpuro.binding.Observer;
 import java.util.ArrayList;
 import java.util.List;
+
+import mvvm.mvvmpuroo.binding.Observer;
 
 public class Observable {
     
@@ -24,6 +25,7 @@ public class Observable {
             observer.onPropertyChanged(propertyName, oldValue, newValue)
             ;
         }
+        System.out.println("Notificando");
     }
 
 

@@ -1,4 +1,4 @@
-package mvvm.mvvmpuro.model;
+package mvvm.mvvmpuroo.model;
 public class Tarefa {
     private String descricao;
     private boolean concluida;

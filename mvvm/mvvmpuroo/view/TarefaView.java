@@ -1,10 +1,12 @@
-package mvvm.mvvmpuro.view;
+package mvvm.mvvmpuroo.view;
 
 import java.util.Scanner;
+
+import mvvm.mvvmpuroo.binding.Databinder;
+import mvvm.mvvmpuroo.model.Tarefa;
+import mvvm.mvvmpuroo.viewmodel.TarefaViewModel;
+
 import java.util.List;
-import mvvm.mvvmpuro.model.Tarefa;
-import mvvm.mvvmpuro.binding.Databinder;
-import mvvm.mvvmpuro.viewmodel.TarefaViewModel;
 
 public class TarefaView {
       private final TarefaViewModel viewModel;

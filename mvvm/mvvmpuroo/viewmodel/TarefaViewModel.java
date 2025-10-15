@@ -1,9 +1,10 @@
-package mvvm.mvvmpuro.viewmodel;
-import mvvm.mvvmpuro.viewmodel.Command;
-import mvvm.mvvmpuro.viewmodel.CommandWithParameter;
+package mvvm.mvvmpuroo.viewmodel;
 import java.util.ArrayList;
 import java.util.List;
-import mvvm.mvvmpuro.model.Tarefa;
+
+import mvvm.mvvmpuroo.model.Tarefa;
+import mvvm.mvvmpuroo.viewmodel.Command;
+import mvvm.mvvmpuroo.viewmodel.CommandWithParameter;
 
 
 public class TarefaViewModel extends Observable{
@@ -11,7 +12,7 @@ public class TarefaViewModel extends Observable{
     private final List<Tarefa> tarefas = new ArrayList<>();
 
      public static final String PROP_TAREFAS = "tarefas";
-
+    
 
     //commands
     private final Command carregarTarefasCommand; 

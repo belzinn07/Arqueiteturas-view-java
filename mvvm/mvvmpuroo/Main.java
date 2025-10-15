@@ -1,7 +1,7 @@
-package mvvm.mvvmpuro;
+package mvvm.mvvmpuroo;
 
-import mvvm.mvvmpuro.viewmodel.TarefaViewModel;
-import mvvm.mvvmpuro.view.TarefaView;
+import mvvm.mvvmpuroo.view.TarefaView;
+import mvvm.mvvmpuroo.viewmodel.TarefaViewModel;
 
 public class Main {
     public static void main(String[] args) {
