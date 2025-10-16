@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Consumer;
 
+import mvvm.listadeprodutos.viewmodel.Command;
+
 public class DataBinder {
     private Map<String, Consumer<Object>> ligacoes = new HashMap<>();
 
@@ -18,6 +20,10 @@ public class DataBinder {
             atualizador.accept(novoValor);
         }
 
+    }
+
+    public void ligarCommand(Object eventoFonte,String eventoNome, Command command ){
+        System.out.println("Comando vinculado: " + eventoNome);
     }
 
 }

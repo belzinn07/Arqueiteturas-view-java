@@ -123,25 +123,25 @@ public class ProdutoViewModel extends Observable{
     }
 
     
-    public Command carregarProdutoCommand(){
+    public Command getCarregarProdutoCommand(){
         return carregarProdutoCommand;
     
     }
 
-    public Command adicionarProdutoCommand(){
+    public Command getAdicionarProdutoCommand(){
         return adicionarProdutoCommand;
     }
 
-    public Command atualizarProdutCommand(){
+    public Command getAtualizarProdutCommand(){
         return atualizarProdutCommand;
     }
    
-    public Command excluiProdutoCommand(){
+    public Command getExcluiProdutoCommand(){
         return excluiProdutoCommand;
     }
    
 
-    public CommandComParametro<Long> selecionarProdutoCommand(){
+    public CommandComParametro<Long> getSelecionarProdutoCommand(){
         return selecionarProdutoCommand;
     }
 
