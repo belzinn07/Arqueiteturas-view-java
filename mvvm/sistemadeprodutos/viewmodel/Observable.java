@@ -1,9 +1,9 @@
-package mvvm.listadeprodutos.viewmodel;
+package mvvm.sistemadeprodutos.viewmodel;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import mvvm.listadeprodutos.binding.Observer;
+import mvvm.sistemadeprodutos.binding.Observer;
 
 public class Observable {
     private List<Observer> observadores= new ArrayList<>();

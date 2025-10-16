@@ -1,4 +1,4 @@
-package mvvm.listadeprodutos.model;
+package mvvm.sistemadeprodutos.model;
 
 public class Produto {
     private Long id;

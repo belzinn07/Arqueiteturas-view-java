@@ -1,15 +1,17 @@
-package mvvm.listadeprodutos.binding;
+package mvvm.sistemadeprodutos.binding;
 
 import java.util.HashMap;
 import java.util.Map;
+
 import java.util.function.Consumer;
 
-import mvvm.listadeprodutos.viewmodel.Command;
+import mvvm.sistemadeprodutos.viewmodel.Command;
+
 
 public class DataBinder {
     private Map<String, Consumer<Object>> ligacoes = new HashMap<>();
 
-    public void ligar(String propNome, Consumer<Object> atualizadordaView){
+    public <T>  void ligar(T objeto, String propNome, Consumer<Object> atualizadordaView){
         ligacoes.put(propNome, atualizadordaView);
 
     }
@@ -25,5 +27,7 @@ public class DataBinder {
     public void ligarCommand(Object eventoFonte,String eventoNome, Command command ){
         System.out.println("Comando vinculado: " + eventoNome);
     }
+
+  
 
 }

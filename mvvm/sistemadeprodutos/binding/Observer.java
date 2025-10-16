@@ -1,4 +1,4 @@
-package mvvm.listadeprodutos.binding;
+package mvvm.sistemadeprodutos.binding;
 
 public interface Observer {
 

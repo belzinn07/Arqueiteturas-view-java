@@ -1,10 +1,10 @@
-package mvvm.listadeprodutos.viewmodel;
+package mvvm.sistemadeprodutos.viewmodel;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import mvvm.listadeprodutos.model.Produto;
-import mvvm.listadeprodutos.service.ProdutoService;
+import mvvm.sistemadeprodutos.model.Produto;
+import mvvm.sistemadeprodutos.service.ProdutoService;
 
 public class ProdutoViewModel extends Observable{
 
@@ -214,7 +214,7 @@ public class ProdutoViewModel extends Observable{
         setNome("");
         setPreco("");
         setQuantidade("");
-        setProdutoSelecionado(null);
+       
 
     }
 
