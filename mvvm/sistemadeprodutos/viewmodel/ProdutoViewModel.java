@@ -147,7 +147,8 @@ public class ProdutoViewModel extends Observable{
 
     public void carregarProdutos(){
         setProdutos(service.listarProdutos());
-        setMensagem("Produtos Carregados: " + produtos.size());
+        notificarObservador(PROP_PRODUTOS,null,new ArrayList<>(produtos));
+        setMensagem("Produtos Carregados: " + produtos);
     }
 
     public void adicionarProduto(){

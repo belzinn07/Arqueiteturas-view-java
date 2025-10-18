@@ -8,7 +8,7 @@ import mvvm.sistemadeprodutos.view.ProdutoView;
 import mvvm.sistemadeprodutos.viewmodel.ProdutoViewModel;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         Scanner scanner = new Scanner(System.in);
         boolean executando = true;
         ProdutoService produtoService = new ProdutoService();
